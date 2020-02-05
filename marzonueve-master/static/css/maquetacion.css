@@ -1,0 +1,92 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/9b/c9/8f/9bc98f55db5737c6b9601ea215f14467.jpg");
+  width: 100%;
+}
+div#contenedor{
+background-color: orange; 
+width: 100%;
+}
+
+div#menu{
+border: black 5px solid;
+background-image: url("https://image.freepik.com/vector-gratis/fondo-luminoso-puntos_1055-3132.jpg");
+width: 100%;
+}
+
+div#submenu{
+color:white;
+
+}
+
+div.section{
+display: flex;
+margin-right:auto;
+justify-content: center;
+width:100%;
+}
+h3{
+  max-width: 75%;
+  min-width:600px;
+  min-height:368px;
+  padding: auto;
+  display: inline-block;
+  border:white 5px solid;
+}
+
+div#container1{
+  max-width: 80%;
+  padding:auto;
+  margin:5%;
+  width:100%;
+  display: inline-block;
+  overflow: auto;
+}
+
+div#pie{
+float:center;
+border: black 5px solid;
+background-image: url("https://image.freepik.com/vector-gratis/fondo-luminoso-puntos_1055-3132.jpg");
+width:100%;
+top: 50%;
+height: 20%;
+}
+p{
+  color:white;
+}
+
+
+@media all and (min-width: 1px) and (max-width: 767px) {
+div.section {
+display: block;
+position: relative;
+}
+
+div#container1{
+display: inline-block;
+padding: 10%;
+border:2px;
+margin:auto;
+height: 5,0%;
+top: 3px;
+} 
+}
+
+
+@media only screen and (min-width : 768px){
+div.section{
+  border: black 8px solid;
+}
+div.container{
+  float: left;
+  width:47%;
+ 
+}
+div#container1{
+  float:left;
+  width: 48%;
+} 
+h3{
+  max-width: 47%;
+}
+}
+
